@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#08AFB5"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#08AFB5"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:paddingLeft="30dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:textColor="@color/white"
+               android:id="@+id/full_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textSize="15dp"
+               android:text="Muhammad Kemal PAsha"/>
+
+           <TextView
+               android:textColor="@color/white"
+               android:id="@+id/email"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="14dp"
+               android:textStyle="italic"
+               android:text="test"/>
+
+           <TextView
+               android:textColor="@color/white"
+               android:id="@+id/phone"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="14dp"
+               android:text="test"/>
+       </LinearLayout>
+</androidx.cardview.widget.CardView>
